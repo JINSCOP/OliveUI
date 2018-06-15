@@ -1,0 +1,35 @@
+@import '~bootstrap/scss/bootstrap';
+
+.oui-modal{
+    @extend .modal;
+}
+.oui-fade{
+    @extend .fade;
+}
+.oui-modal-dialog{
+    @extend .modal-dialog;
+}
+.oui-modal-dialog-centered{
+    @extend .modal-dialog-centered;
+}
+.oui-modal-content{
+    @extend .modal-content;
+}
+.oui-modal-header{
+    @extend .modal-header;
+}
+.oui-modal-title{
+    @extend .modal-title;
+}
+.oui-modal-body{
+    @extend .modal-body;
+}
+.oui-modal-footer{
+    @extend .modal-footer;
+}
+.oui-modal-sm{
+    @extend .modal-sm;
+}
+.oui-modal-lg{
+    @extend .modal-lg;
+}

@@ -1,0 +1,34 @@
+@import '~bootstrap/scss/bootstrap';
+
+// .oui-dropdown{
+//     @extend .dropdown;
+// }
+// .oui-dropup{
+//     @extend .dropup;
+// }
+// .oui-dropleft{
+//     @extend .dropleft;
+// }
+// .oui-dropright{
+//     @extend .dropright;
+// }
+.oui-dropdown-toggle{
+    @extend .dropdown-toggle;
+}
+// .oui-dropdown-menu{
+//     @extend .dropdown-menu;
+// }
+.oui-dropdown-item{
+    @extend .dropdown-item;
+}
+
+
+select.oui-bg-transparent{
+    option{
+        color: black;
+    }
+}
+
+select.oui-form-control-sm{
+    line-height: 16px;
+}

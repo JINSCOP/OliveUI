@@ -1,0 +1,37 @@
+@import '~bootstrap/scss/bootstrap';
+@import '../theme/theme.scss';
+
+.oui-form-control{
+    @extend .form-control;
+    color: $tint-color!important;
+}
+.oui-form-control-sm{
+    @extend .form-control;
+    @extend .form-control-sm;
+    color: $tint-color!important;
+}
+.oui-form-control-lg{
+    @extend .form-control;
+    @extend .form-control-lg;
+    color: $tint-color!important;
+}
+// 选择框
+.oui-form-check{
+    @extend .form-check;
+    color: $tint-color!important;
+} 
+.oui-form-check-input{
+    @extend .form-check-input;
+}
+.oui-form-check-label{
+    @extend .form-check-label;
+}
+.oui-form-check-inline{
+    @extend .form-check-inline;
+    color: $tint-color!important;
+}
+
+// 透明的input
+.oui-bg-transparent{
+    background-color: transparent !important;
+}

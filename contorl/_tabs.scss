@@ -1,0 +1,28 @@
+@import '~bootstrap/scss/bootstrap';
+// @import '../theme/theme.scss';
+// .oui-nav{
+//     @extend .nav;
+// }
+.oui-nav-tabs{
+    @extend .nav-tabs;
+    li{
+        @extend .nav-item;
+        a{
+            @extend .nav-link;
+            color: $tint-color;
+        }
+    }
+    border-bottom: none!important;
+}
+.oui-nav-item{
+    @extend .nav-item;
+}
+.oui-nav-link{
+    @extend .nav-link;
+}
+.oui-tab-content{
+    @extend .tab-content;
+}
+.oui-tab-pane{
+    @extend .tab-pane;
+}

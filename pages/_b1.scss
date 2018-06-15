@@ -1,0 +1,31 @@
+$textColor:#fff;
+
+$mt: 10px;
+
+$borderColor:#fff;
+
+.b1 {
+    
+    color: $textColor;
+    a{
+        color: $textColor;
+    }
+    .oui-tab-content {
+        margin-top: $mt;
+    }
+    .oui-card {
+        background: transparent;
+        border-color: $borderColor;
+        padding: 5px 0;
+    }
+    .w-100{
+        margin-bottom: 5px;
+    }
+    .oui-input-group-text {
+        color: $textColor;
+    }
+    select {
+        color: $textColor;
+    }
+}
+

@@ -1,0 +1,24 @@
+@import '~bootstrap/scss/bootstrap';
+
+.oui-card{
+    @extend .card;
+}
+.oui-card-img-top{
+    @extend .card-img-top;
+}
+.oui-card-body{
+    @extend .card-body;
+}
+.oui-card-title{
+    @extend .card-title;
+}
+// 副标题
+.oui-card-subtitle{
+    @extend .card-subtitle;
+}
+.oui-card-text{
+    @extend .card-text;
+}
+.oui-card-link{
+    @extend .card-link;
+}

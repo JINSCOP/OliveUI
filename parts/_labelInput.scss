@@ -1,0 +1,85 @@
+@import '~bootstrap/scss/bootstrap';
+@import '../theme/theme.scss';
+.oui-input-group {
+    @extend .input-group;
+    margin-bottom: 5px;
+}
+
+.oui-input-group-sm {
+    @extend .input-group;
+    @extend .input-group-sm;
+    margin-bottom: 5px;
+}
+
+.oui-input-group-lg {
+    @extend .input-group;
+    @extend .input-group-lg;
+    margin-bottom: 5px;
+}
+
+.oui-input-group-prepend {
+    @extend .input-group-prepend;
+    @extend .col-4;
+    // padding: 0!important;
+}
+.oui-input-group-prepend3 {
+    @extend .input-group-prepend;
+    @extend .col-2;
+    // padding: 0!important;
+}
+.oui-input-group-append{
+    @extend .col-6;
+    padding: 0!important;
+   
+}
+.oui-input-group-append05{
+    @extend .col-3;
+    padding: 0!important;
+   
+}
+.oui-input-group-append3{
+    @extend .col-9;
+    padding: 0!important;
+   
+}
+.oui-inputmodal-group-prepend {
+    @extend .input-group-prepend;
+    @extend .col-4;
+    label{
+        color: $modal-color;
+    }
+    
+    // padding: 0!important;
+}
+.oui-inputmodal-group-append{
+    @extend .col-6;
+    padding: 0!important;
+    input{
+        color: $modal-color!important;
+    }
+   
+}
+
+.oui-input-group-text {
+    @extend .input-group-text;
+    background: transparent;
+    border: 0;
+    display: inline-block!important;
+    width: 100%!important;
+    margin: 0!important;
+    padding: 0!important;
+    text-align: right!important;
+    color: $tint-color;
+}
+
+.oui-text-overflow {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    line-height: 30px !important;
+}
+
+
+.oui-custom-select {
+    @extend .custom-select;
+}

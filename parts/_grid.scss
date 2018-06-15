@@ -1,0 +1,60 @@
+@import '~bootstrap/scss/bootstrap';
+.oui-grid {
+    @extend .row;
+}
+
+.oui-g {
+    @extend .col;
+}
+
+.oui-g-1 {
+    @extend .col-1;
+}
+
+.oui-g-2 {
+    @extend .col-2;
+}
+
+.oui-g-3 {
+    @extend .col-3;
+}
+
+.oui-g-4 {
+    @extend .col-4;
+}
+
+.oui-g-5 {
+    @extend .col-5;
+}
+
+.oui-g-6 {
+    @extend .col-6;
+}
+
+.oui-g-7 {
+    @extend .col-7;
+}
+
+.oui-g-8 {
+    @extend .col-8;
+}
+
+.oui-g-9 {
+    @extend .col-9;
+}
+
+.oui-g-10 {
+    @extend .col-10;
+}
+
+.oui-g-11 {
+    @extend .col-11;
+}
+
+.oui-g-12 {
+    @extend .col-12;
+}
+
+.oui-w-100 {
+    @extend .w-100;
+}

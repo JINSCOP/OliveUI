@@ -1,0 +1,107 @@
+@import '~bootstrap/scss/bootstrap';
+// primary   普通的蓝色按钮
+.oui-btn-primary{
+    @extend .btn;
+    @extend .btn-primary;
+}
+// secondary  灰色的按钮
+.oui-btn-secondary{
+    @extend .btn;
+    @extend .btn-secondary;
+}
+// success  绿色的成功按钮
+.oui-btn-success{
+    @extend .btn;
+    @extend .btn-success;
+} 
+// danger  红色的危险按钮
+.oui-btn-danger{
+    @extend .btn;
+    @extend .btn-danger;
+}
+// warning  橘色的警告按钮
+.oui-btn-warning{
+    @extend .btn;
+    @extend .btn-warning;
+}
+// info    青色的信息按钮
+.oui-btn-info{
+    @extend .btn;
+    @extend .btn-info;
+}
+// light  白色背景
+.oui-btn-light{
+    @extend .btn;
+    @extend .btn-light;
+}
+// dark  黑色背景
+.oui-btn-dark{
+    @extend .btn;
+    @extend .btn-dark;
+}
+// link 链接形式
+.oui-btn-link{
+    @extend .btn;
+    @extend .btn-link;
+}
+
+// outline button
+.oui-btn-outline-primary{
+    @extend .btn;
+    @extend .btn-outline-primary;
+}
+.oui-btn-outline-secondary{
+    @extend .btn;
+    @extend .btn-outline-secondary;
+}
+
+.oui-btn-outline-success{
+    @extend .btn;
+    @extend .btn-outline-success;
+}
+
+.oui-btn-outline-danger{
+    @extend .btn;
+    @extend .btn-outline-danger;
+}
+
+.oui-btn-outline-warning{
+    @extend .btn;
+    @extend .btn-outline-warning;
+}
+
+.oui-btn-outline-info{
+    @extend .btn;
+    @extend .btn-outline-info;
+}
+.oui-btn-outline-light{
+    @extend .btn;
+    @extend .btn-outline-light;
+}
+
+.oui-btn-outline-dark{
+    @extend .btn;
+    @extend .btn-outline-dark;
+}
+// 活动状态
+.oui-active{
+    @extend .active;
+}
+
+
+
+// 按钮大小  sm小 lg大 block占整行
+.oui-btn-sm{
+    @extend .btn;
+    @extend .btn-sm;
+}
+.oui-btn-lg{
+    @extend .btn;
+    @extend .btn-lg;
+}
+.oui-btn-block{
+    @extend .btn;
+    @extend .btn-block;
+}
+
+
