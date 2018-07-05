@@ -9,6 +9,8 @@
     @extend .form-control;
     @extend .form-control-sm;
     color: $tint-color!important;
+    // display: inline!important;
+    // width: auto!important;
 }
 .oui-form-control-lg{
     @extend .form-control;

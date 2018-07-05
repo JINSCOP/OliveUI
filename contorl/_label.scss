@@ -1,4 +1,31 @@
 @import '../theme/theme.scss';
+
+// label全局的字体颜色，具体的样式在特定控件上下文
 label{
     color:$tint-color;
 }
+
+
+// .label {
+//     border-radius: 0;
+// }
+
+// .label-primary {
+//     background: $primary;
+// }
+
+// .label-info {
+//     background: $primary-light;
+// }
+
+// .label-success {
+//     background: $success;
+// }
+
+// .label-warning {
+//     background: $warning;
+// }
+
+// .label-danger {
+//     background: $danger;
+// }
