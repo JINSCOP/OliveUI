@@ -1,1 +1,218 @@
 
+.common-style {
+    background: transparent!important;
+    border: 1px solid rgba(255, 255, 255, 0.3) !important;
+    color: #fff!important;
+}
+
+$color: #fff;
+.ab1,
+.b2,
+.b1,
+.a1,
+.a2 {
+    input.ui-inputtext,
+    button.ui-button {
+        @extend .common-style;
+    }
+    .ui-blockui {
+        z-index: 1051!important;
+    }
+}
+
+p-table.css1 {
+    div.ui-table-scrollable-header {
+        background: transparent!important;
+    }
+    div.ui-table-caption {
+        border: 1px solid rgba(255, 255, 255, 0.3) !important;
+        border-bottom: 0 !important;
+        background: transparent!important;
+    }
+    table {
+        tr {
+            background: transparent!important;
+            &.ui-state-highlight {
+                background: rgba(0, 0, 0, 0.05)!important;
+            }
+            th,
+            td {
+                border-color: rgba(255, 255, 255, 0.3) !important;
+                background: transparent!important;
+                color: #fff!important;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+                word-break: break-all;
+            }
+        }
+    }
+    div.ui-paginator-bottom {
+        border: 1px solid rgba(255, 255, 255, 0.3) !important;
+        border-top: 0 !important;
+        background: transparent!important;
+    }
+}
+
+p-tabview.css1 {
+    div.ui-tabview-top {
+        background: transparent!important;
+        // padding: 20px;
+        // 
+    }
+    div.ui-tabview-panel {
+        border: 1px solid rgba(255, 255, 255, 0.3) !important;
+    }
+    div.ui-widget-content {
+        color: #fff!important;
+    }
+    ul {
+        li {
+            @extend .common-style;
+            margin-left: -2px!important;
+            border-bottom: 0!important;
+            a {
+                @extend .common-style;
+            }
+            &.ui-state-active {
+                background: rgba(0, 0, 0, 0.1)!important;
+            }
+        }
+    }
+}
+
+p-dropdown.css1 {
+    div.ui-state-default,
+    label.ui-inputtext {
+        @extend .common-style;
+    }
+    i.ui-dropdown-clear-icon {
+        color: #fff!important;
+    }
+    ul.ui-dropdown-items {
+        li {
+            color: #222222!important;
+            &.ui-state-highlight {
+                border-color: #156090!important;
+                background: #186ba0!important;
+                color: #FFFFFF!important;
+            }
+        }
+    }
+}
+
+p-panel.css1 {
+    div.ui-panel {
+        background: transparent!important;
+        border-color: rgba(255, 255, 255, 0.3)!important;
+        div.ui-panel-titlebar {
+            @extend .common-style;
+            a {
+                @extend .common-style;
+            }
+        }
+    }
+}
+
+p-fileupload.css1 {
+    div.ui-fileupload-buttonbar,
+    div.ui-fileupload-content {
+        @extend .common-style;
+    }
+}
+
+p-confirmdialog.css1 {
+    div.ui-dialog-footer {
+        background: linear-gradient(to bottom, #f6f7f9 0%, #ebedf0 100%);
+        button {
+            color: #000!important;
+            border-color: #d5d5d5!important;
+        }
+    }
+}
+
+p-treetable.css1 {
+    table {
+        td {
+            overflow: visible!important;
+            border: 1px solid #d5d5d5!important;
+            a.ui-treetable-toggler {
+                position: relative;
+                top: -2px;
+            }
+            p-dropdown {
+                div.ui-dropdown,
+                div.ui-dropdown-trigger {
+                    border: 1px solid #d6d6d6!important;
+                    background: #ffffff!important;
+                    color: #555555!important;
+                }
+                label.ui-dropdown-label {
+                    background: #ffffff!important;
+                    color: #222222!important;
+                    transition: .2s!important;
+                }
+            }
+        }
+    }
+}
+
+.col-md-6 {
+    float: left;
+}
+
+input[type="radio"] {
+    margin-right: 6px;
+}
+
+.tab-box {
+    h3 {
+        span {
+            float: left;
+            height: 29px;
+            min-width: 100px;
+            width: auto;
+            padding: 0 20px 0 10px;
+            line-height: 29px;
+            border-right: 1px solid rgba(250, 250, 250, 0.3);
+            font-size: 13px;
+            position: relative;
+            cursor: pointer;
+        }
+        .span {
+            position: absolute;
+            top: -8px;
+            right: 4px;
+            font-size: 14px;
+            cursor: pointer;
+        }
+        .span:hover {
+            color: red;
+        }
+    }
+}
+
+// th,td {
+//     border: 1px solid #d5d5d5;
+// }
+ngx-first-table {
+    table {
+        width: 100%;
+        caption {
+            caption-side: top;
+            color: #fff!important;
+            nav {
+                border-color: rgba(255, 255, 255, 0.3) !important;
+                li {
+                    border-color: rgba(255, 255, 255, 0.3) !important;
+                }
+            }
+        }
+        th,
+        td {
+            border: 1px solid rgba(255, 255, 255, 0.3) !important;
+            text-align: center;
+            padding: 0.25em 1em!important;
+        }
+    }
+}
