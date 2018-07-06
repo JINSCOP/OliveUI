@@ -18,3 +18,10 @@ $icon-collapse-between-area:0;	//区块间折叠的icon
 $icon-expand-between-area:0;	//区块间展开的icon
 
 $modal-color:#000;  //弹出框中的前景色
+
+
+//老样式框架中用到的
+$default: #ffffff; // default colors for layout
+$body-bg: #F0F3F4; // default bg color
+$default-text: $default; // default text color layout (usually is the same as $default)
+$content-text: $default-text; 

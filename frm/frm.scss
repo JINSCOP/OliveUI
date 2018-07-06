@@ -1,1 +1,34 @@
-@import './_common';
+@import 'common';
+
+// begin---老oui中的
+// 修改背景色,引入不同的文件
+@import 'variables';
+@import 'colorSchemes/ng2';
+
+@import 'fonts';
+@import 'icons';
+@import 'ionicons';
+@import 'mixins';
+@import 'meta';
+@import 'typography';
+@import 'primeng';
+// @import '../../../theme/components/baMsgCenter/baMsgCenter.component.ts';
+// @import url('../../../theme/components/baMsgCenter/baMsgCenter.component.ts');
+// 2步：
+// @import 'colorSchemes/blur'; //模糊
+// @import 'colorSchemes/dark';
+// @import 'colorSchemes/pink';
+// @import 'colorSchemes/mint';
+// @if $number == 1 {
+//     @include layout (#000, $number);
+// } @else if $number == 2 {
+//     @include layout (#444, $number);
+// } @else if $number == 3 {
+//     @include layout (#888, $number);
+// } @else if $number == 4 {
+//     @include layout (#bbb, $number);
+// }
+@import 'layout';
+@import 'preloader';
+@import 'socicon';
+// end---老oui中的

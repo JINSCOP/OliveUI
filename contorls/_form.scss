@@ -1,0 +1,165 @@
+.form-control {
+    color: $content-text;
+    @include placeholderStyle($content-text, 0.7);
+    border: 1px solid $input-border;
+    border-radius: 2px;
+    background-color: $input-background;
+    box-shadow: none;
+    font-size: 14px;
+    padding: 3px 5px !important;
+    &:focus {
+        color: $content-text;
+        box-shadow: none;
+        border-color: $primary-bg;
+        background: $input-background;
+    }
+    &:disabled {
+        background: rgba(170, 170, 170, 0.5) !important;
+    }
+    // &:readonly {
+    //     background: rgba(170, 170, 170, 0.5) !important;
+    // }
+}
+input:read-only{
+    background: rgba(170, 170, 170, 0.5) !important;
+}
+select.form-control {
+    padding-left: 8px;
+}
+
+select.form-control:not([multiple]) option {
+    color: $dropdown-text;
+}
+
+select.form-control[multiple] option {
+    color: $default-text;
+}
+
+select.form-control {
+    height: calc(1.5rem + 2px) !important;
+}
+input[type='date'].form-control{
+    height: calc(1.5rem + 2px) !important;
+}
+// 上下布局的表单
+.form-group {
+    position: relative;
+    border-bottom: .5rem !important;
+    margin-bottom: .7rem !important; 
+    label {
+        color: $content-text;
+        font-weight: $font-normal;
+        font-size: 13px;
+        justify-content: flex-end !important;
+        &.textarea-label{
+            vertical-align: top !important
+        }
+    }
+    
+    select {
+        padding: 0px 10px;
+    }
+    .alert {
+        position: absolute;
+        right: 0px;
+        top: -9px;
+        background: none;
+        border: none;
+        border-radius: 0;
+    }
+    .alert-danger {
+        color: white !important;
+        text-align: center;
+    }
+    textarea {
+        position: relative;
+    }
+
+    select.col-md-2{
+        margin-right: 5px;
+    }
+    .require,
+    .denger-info {
+        padding-left: 10px;
+        color: #a94442 !important;
+    }
+    .radio-inline {
+        margin-right: 20px;
+        span{
+            margin-left: 2px;
+        }
+    }
+}
+
+// 表单的设置，修改bootstrap的设置。
+textarea.form-control {
+    width: 100%;
+    display: inline-block;
+}
+
+textarea.form-control {
+    height: 96px;
+}
+// 验证表单
+// .ng-valid[required], .ng-valid.required  {
+//     border: 1px solid rgba(66, 248, 97, 0.2); /* green */
+//   }
+  
+//   .ng-invalid:not(form)  {
+//     border: 1px solid rgba(248, 92, 92, 0.2); /* red */
+//   }
+// // 一行 。重写之后占一行紧挨着一行
+.form-inline {
+    margin-bottom:.7rem;
+        padding-left: 5px;
+        position: relative;
+        input {
+            width: auto;
+        }
+        label {
+            width: auto;
+            justify-content: flex-end !important;
+            &.textarea-label{
+                vertical-align: top !important
+            }
+        }
+        .require,
+       .denger-info {
+            padding-left: 10px;
+            color: #a94442 !important;
+        }
+        .textarea-top{
+            position: relative;
+            top: -38px;
+        }
+    .select {
+        font-size: 13px;
+        padding: 3px 10px; 
+    }
+    select.col-md-2{
+        margin-right: 5px;
+    }
+    button[type="submit"] {
+        margin-left: 12px;
+    }
+    .radio-inline {
+        margin-right: 20px;
+        span{
+            margin-left: 4px;
+        }
+    }
+}
+.input-demo {
+    line-height: 20px;
+    ba-multi-checkbox {
+        width: 100%;
+    }
+}
+
+
+.custom-radio {
+    margin-bottom: 0px;
+}
+.form-inline button[type="submit"].editable-table-button {
+    margin-left: 0;
+}

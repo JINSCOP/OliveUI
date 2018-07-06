@@ -33,3 +33,46 @@
 .oui-modal-lg{
     @extend .modal-lg;
 }
+
+// begin --- 老oui
+// 模态框
+.modal-header {
+    // border: none;
+    font-size: 15px;
+    padding: 10px 10px 5px 10px;
+  }
+  .modal-body {
+    // ;rgba(9, 168, 241, 0.4)
+    background:rgba(0, 145, 217,0.5) !important; 
+    padding: 10px;
+    color: black !important;
+  }
+  .modal-buttons .btn {
+    margin-right: 20px;
+  }
+  .modal-content {
+    color: black !important; 
+    font-size:13px;
+  }
+  .modal-footer {
+    // border: none;
+    font-size:13px;
+  }
+  
+  button.close {
+    padding-bottom: 2px;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .2;
+  
+    &:hover {
+      opacity: .5;
+    }
+  }
+  @media (min-width: 992px){
+    .modal-lg{
+      max-width: 1000px;
+    }
+  }
+  
+// end --- 老oui
