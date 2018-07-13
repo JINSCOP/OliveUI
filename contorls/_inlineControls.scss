@@ -26,6 +26,20 @@
         vertical-align: sub;
     }
 }
+.oui-select-span-append{
+    @extend .col-6;
+    padding: 0!important;
+    .oui-select{
+        width: 80%!important;
+        margin-right: 5px;
+        display: inline-block!important;
+    }
+    .oui-span{
+        width: 15%!important;
+        display: inline-block!important;
+        vertical-align: sub;
+    }
+}
 .oui-select-input-span-append{
     @extend .col-6;
     padding: 0!important;        
