@@ -9,14 +9,13 @@
     @extend .form-control;
     @extend .form-control-sm;
     color: $tint-color!important;
-    // display: inline!important;
-    // width: auto!important;
 }
 .oui-form-control-lg{
     @extend .form-control;
     @extend .form-control-lg;
     color: $tint-color!important;
 }
+
 // 选择框
 .oui-form-check{
     @extend .form-check;
