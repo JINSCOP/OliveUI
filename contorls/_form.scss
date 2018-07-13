@@ -2,7 +2,7 @@
     color: $content-text;
     @include placeholderStyle($content-text, 0.7);
     border: 1px solid $input-border;
-    border-radius: 2px;
+    // border-radius: 2px;
     background-color: $input-background;
     box-shadow: none;
     font-size: 14px;
@@ -36,7 +36,7 @@ select.form-control[multiple] option {
 }
 
 select.form-control {
-    height: calc(1.5rem + 2px) !important;
+    // height: calc(1.5rem + 2px) !important;
 }
 input[type='date'].form-control{
     height: calc(1.5rem + 2px) !important;
@@ -150,7 +150,7 @@ textarea.form-control {
     }
 }
 .input-demo {
-    line-height: 20px;
+    // line-height: 20px;
     ba-multi-checkbox {
         width: 100%;
     }
